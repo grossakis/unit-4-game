@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<header>
+    <div class = "header-deco">
+        <h1>Crystal Collector</h1>
+    </div>
+</header>
+<div class = "main-box"> 
+    <h2>Click to Gather Crystals!</h2>
+    <br>
+    <a class = "crystal-box" href = "#" id = "crystal1">
+        <img src = "assets/images/Amethyst.png" class = "crystal-pic">
+    </a>
+    <a class = "crystal-box" href = "#" id = "crystal2">
+        <img src = "assets/images/Aquamarine.png" class = "crystal-pic">
+    </a>
+    <a class = "crystal-box" href = "#" id = "crystal3">
+        <img src = "assets/images/Gem.png" class = "crystal-pic">
+    </a>
+    <a class = "crystal-box" href = "#" id = "crystal4">
+        <img src = "assets/images/Sapphire.png" class = "crystal-pic">
+    </a>
+    <br>
+    <br>
+    <div class = "player-box">
+        <h2>Player Value: </h2>
+        <br>
+        <span id = "player-value"></span>
+    </div>
+    <div class = "target-box">
+        <h2>Target Value:</h2>
+        <br>
+        <span id = "target-value"></span>
+    </div>
+    <div class = "win-box">
+        <h2>Wins: </h2>
+        <br>
+        <span id = "wins"></span>
+    </div>
+    <div class = "loss-box">
+        <h2>Losses:</h2>
+        <br>
+        <span id = "losses"></span>
+    </div>
+</div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>

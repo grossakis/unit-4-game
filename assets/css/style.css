@@ -1,0 +1,96 @@
+body{
+    background-image: url("../images/country-quilt.png");
+    color: #4e4e4e;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+.header-deco{
+    background: linear-gradient(#ffffff , #d6d6d6);
+    padding: 30px;
+}
+.main-box{
+    background-color: #ffffff;
+    background: radial-gradient(#ffffff , #ebebeb);
+    border: 2px solid #a5a5a5;
+    box-shadow: 0 0 20px #a7a7a7;
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px 0;
+    border-radius: 25px;
+}
+.crystal-box{
+    background: #ffffff;
+    border: 2px solid #a5a5a5;
+    box-shadow: 0 0 20px #ffffff;
+    display: inline-block;
+    width: 13%;
+    margin: 10px 10px;
+    padding: 26px;
+    border-radius: 20px;
+}
+.crystal-pic{
+    width: 100%;
+}
+header{
+    color: #505050;
+    background: linear-gradient(#d6d6d6 , #ffffff, #d6d6d6);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    border-bottom: 2px solid #a5a5a5;
+    box-shadow: 0 0 20px #a7a7a7;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+span{
+    font-size: 32px;
+}
+#letter-blanks{
+    font-size: 36px;
+}
+a:hover{
+    box-shadow: 0 0 20px #fa62ff;
+}
+a:active{
+    box-shadow: 0 0 20px #fffc62;
+}
+.target-box{
+    display: inline-block;
+    background-color: #ff8f8f;
+    width: 34%;
+    padding: 20px;
+    margin: 4%;
+    border-radius: 25px;
+    border: 2px solid #6d3d3d;
+}
+.player-box{
+    display: inline-block;
+    background-color: #e1a0ff;
+    width: 34%;
+    padding: 20px;
+    margin: 4%;
+    border-radius: 25px;
+    border: 2px solid #6c4d7a;
+}
+.loss-box{
+    display: inline-block;
+    background-color: #afb0ff;
+    width: 34%;
+    padding: 20px;
+    margin: 0 4%;
+    border-radius: 25px;
+    border: 2px solid #585980;
+}
+.win-box{
+    display: inline-block;
+    background-color: #a0d1ff;
+    width: 34%;
+    padding: 20px;
+    margin: 0 4%;
+    border-radius: 25px;
+    border: 2px solid #5a7691;
+}
